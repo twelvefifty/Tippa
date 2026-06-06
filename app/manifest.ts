@@ -7,8 +7,8 @@ export default function manifest(): MetadataRoute.Manifest {
     description: "Private football prediction pools for friends, families, and teams.",
     start_url: "/dashboard",
     display: "standalone",
-    background_color: "#F7F3EA",
-    theme_color: "#101827",
+    background_color: "#FFFFFF",
+    theme_color: "#002FA7",
     icons: [
       {
         src: "/icons/logo_192.png",

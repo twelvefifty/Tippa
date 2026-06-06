@@ -1,7 +1,16 @@
 import type { Metadata, Viewport } from "next";
+import { Jost } from "next/font/google";
 import "./globals.css";
 import { AppShell } from "@/components/app-shell";
 import { Analytics } from "@vercel/analytics/next"
+
+// Jost is a free, geometric sans very close to Futura (the mmmagasin brand font).
+const jost = Jost({
+  subsets: ["latin"],
+  weight: ["400", "500", "600", "700"],
+  variable: "--font-jost",
+  display: "swap"
+});
 
 export const metadata: Metadata = {
   title: {
@@ -26,7 +35,7 @@ export const metadata: Metadata = {
 };
 
 export const viewport: Viewport = {
-  themeColor: "#101827",
+  themeColor: "#002FA7",
   width: "device-width",
   initialScale: 1,
   maximumScale: 1
@@ -38,7 +47,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang="en" className={jost.variable}>
       <body className="antialiased">
         <Analytics/>
         <AppShell>{children}</AppShell>

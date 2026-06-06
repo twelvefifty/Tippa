@@ -12,7 +12,7 @@ export default function HomePage() {
     <main className="page-shell">
       <section className="grid min-h-[calc(100vh-5rem)] items-center gap-8 py-8 md:grid-cols-[1.05fr_0.95fr]">
         <div className="space-y-6">
-          <div className="inline-flex rounded-full bg-[#fff4d6] px-4 py-2 text-sm font-bold">
+          <div className="inline-flex rounded-full bg-accent px-4 py-2 text-sm font-bold text-accent-foreground">
             Football pools for your private circle
           </div>
           <h1 className="max-w-2xl text-6xl font-black leading-[0.92] tracking-normal md:text-8xl">

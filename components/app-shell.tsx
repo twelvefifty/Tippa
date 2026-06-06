@@ -13,7 +13,7 @@ export async function AppShell({ children }: { children: React.ReactNode }) {
     <>
       <ServiceWorkerRegister />
       <PullToRefresh />
-      <header className="sticky top-0 z-30 border-b bg-[#fffaf0]/85 backdrop-blur">
+      <header className="sticky top-0 z-30 border-b bg-background/85 backdrop-blur">
         <div className="mx-auto flex w-full max-w-6xl items-center justify-between px-4 py-3">
           <Link href={user ? "/dashboard" : "/"} className="flex items-center gap-2">
             <Image
