@@ -2,8 +2,8 @@ import type { MetadataRoute } from "next";
 
 export default function manifest(): MetadataRoute.Manifest {
   return {
-    name: "Tippa",
-    short_name: "Tippa",
+    name: "mr + mrs m mundial",
+    short_name: "mundial",
     description: "Private football prediction pools for friends, families, and teams.",
     start_url: "/dashboard",
     display: "standalone",

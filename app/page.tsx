@@ -16,7 +16,7 @@ export default function HomePage() {
             Football pools for your private circle
           </div>
           <h1 className="max-w-2xl text-6xl font-black leading-[0.92] tracking-normal md:text-8xl">
-            Tippa
+            mundial
           </h1>
           <p className="max-w-xl text-xl text-muted-foreground">
             Make a private World Cup prediction game for friends, families, or teams,

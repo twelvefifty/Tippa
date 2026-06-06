@@ -14,11 +14,11 @@ const jost = Jost({
 
 export const metadata: Metadata = {
   title: {
-    default: "Tippa",
-    template: "%s | Tippa"
+    default: "mr + mrs m mundial",
+    template: "%s · mundial"
   },
   description: "Private football prediction pools for friends, families, and teams.",
-  applicationName: "Tippa",
+  applicationName: "mundial",
   manifest: "/manifest.webmanifest",
   icons: {
     icon: [
@@ -29,7 +29,7 @@ export const metadata: Metadata = {
   },
   appleWebApp: {
     capable: true,
-    title: "Tippa",
+    title: "mundial",
     statusBarStyle: "default"
   }
 };
