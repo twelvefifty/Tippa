@@ -21,11 +21,8 @@ export const metadata: Metadata = {
   applicationName: "mundial",
   manifest: "/manifest.webmanifest",
   icons: {
-    icon: [
-      { url: "/icons/logo_192.png", sizes: "192x192", type: "image/png" },
-      { url: "/icons/logo_512.png", sizes: "512x512", type: "image/png" }
-    ],
-    apple: [{ url: "/icons/logo_192.png", sizes: "192x192", type: "image/png" }]
+    icon: [{ url: "/icons/mmm-favicon.png?v=3", type: "image/png" }],
+    apple: [{ url: "/icons/mmm-favicon.png?v=3" }]
   },
   appleWebApp: {
     capable: true,
